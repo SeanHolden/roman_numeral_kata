@@ -1,4 +1,4 @@
-# roman_numeral_kata
+# Roman Numeral Kata
 Roman Numeral Generator. Takes integer value, converts to roman numeral.
 
 Usage:
