@@ -4,8 +4,7 @@ require './lib/roman_numeral_generator'
 
 def output
   number = ARGV[0].to_i
-  roman_numeral = RomanNumeralGenerator.new(number)
-  roman_numeral.generate
+  RomanNumeralGenerator.new(number).generate
 rescue *errors => e
   e.message
 end
