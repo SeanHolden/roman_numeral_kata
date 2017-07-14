@@ -1,0 +1,17 @@
+#!/usr/bin/env ruby
+
+require './lib/roman_numeral_generator'
+
+def output
+  number = ARGV[0].to_i
+  roman_numeral = RomanNumeralGenerator.new(number)
+  roman_numeral.generate
+rescue *errors => e
+  e.message
+end
+
+def errors
+  [RomanNumeralGenerator::ValueTooHigh, RomanNumeralGenerator::NoZeroError]
+end
+
+puts output

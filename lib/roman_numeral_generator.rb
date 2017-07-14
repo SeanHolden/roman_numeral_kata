@@ -8,8 +8,8 @@
 # roman_numeral.generate
 # => "CDXCIX"
 
-require './roman_numeral_generator/numeral'
-require './roman_numeral_generator/errors'
+require './lib/roman_numeral_generator/numeral'
+require './lib/roman_numeral_generator/errors'
 
 class RomanNumeralGenerator
   attr_reader :number

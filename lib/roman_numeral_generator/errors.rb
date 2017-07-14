@@ -7,7 +7,7 @@ class RomanNumeralGenerator
 
   class ValueTooHigh < StandardError
     def message
-      'Unable to convert numbers over 4999'
+      'Unable to convert numbers over 3999'
     end
   end
 end

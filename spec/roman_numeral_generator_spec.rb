@@ -1,4 +1,4 @@
-require './roman_numeral_generator'
+require './lib/roman_numeral_generator'
 
 describe RomanNumeralGenerator do
   describe '#generate' do

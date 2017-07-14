@@ -1,5 +1,5 @@
-require './roman_numeral_generator'
-require './roman_numeral_generator/numeral'
+require './lib/roman_numeral_generator'
+require './lib/roman_numeral_generator/numeral'
 
 class RomanNumeralGenerator
   describe Numeral do
